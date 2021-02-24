@@ -3,9 +3,9 @@ name: 腾讯视频签到
 on:
     workflow_dispatch:
     schedule:
-        - cron: "30 14 * * *"
-    watch:
-        types: [started]
+        - cron: "00 1 * * *"
+#     watch:
+#         types: [started]
 
 jobs:
     build:
